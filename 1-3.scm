@@ -19,3 +19,10 @@
     )))
 
 (sum_of_squares 3 4 5) ; 16 + 25 = 41
+(sum_of_squares 5 4 3) ; 16 + 25 = 41
+
+(- (+ (* a a) (* b b) (* c c))
+   (min (* a a) (min (* b b) (* c c))))
+
+(sum_of_squares 3 4 5)
+(sum_of_squares 5 4 3)
