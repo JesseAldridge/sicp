@@ -52,7 +52,7 @@
 
 ; (sqrt 10000000000000)  ; expected: 3,162,277.66016838, actual: <infinite recursion>
 
-; we can solve both problems by change good-enough to track the fractional change between
+; we can solve both problems by changing good-enough to track the fractional change between
 ; the previous value and the new value
 
 (define (good-enough? guess x)
