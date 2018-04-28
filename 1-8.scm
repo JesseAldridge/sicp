@@ -17,3 +17,4 @@
 
 
 (cube-root 27) ; expected: 3, actual: 3.001274406506175
+(cube-root 10000)
